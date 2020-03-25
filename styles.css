@@ -1,0 +1,38 @@
+.container{
+    display:flex;
+}
+body{
+    flex-direction: column;
+}
+article{
+    flex-direction:column;
+    width:100%;
+    align-items: center;
+}
+header{
+    justify-content: space-between;
+    background-color: deepskyblue;
+    align-items:center;
+    width:100%
+}
+nav{
+    width: 50%;
+}
+ul.navbar{
+    justify-content: space-around;
+    list-style-type:none;
+}
+a{ 
+    color:inherit;
+    text-decoration: none;
+}
+
+.black-background{
+    background-color:black;
+    color:white;
+}
+
+.bigText{
+    font-size:30px;
+    font-weight:100000;
+}
